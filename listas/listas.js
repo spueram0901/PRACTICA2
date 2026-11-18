@@ -51,6 +51,34 @@ do{
 
      case "D":
 
+     let max = 0;
+     let min = Infinity;
+     let media = 0;
+     let contador = 0;
+
+     for(let nota of notas){
+         if(nota > max){
+            max = nota;
+         }
+
+         if(nota < min){
+            min = nota;
+         }
+         contador ++;
+         media = media + nota;
+     }
+
+     media = media /contador;
+
+     console.log("Maximo: "+ max);
+     console.log("Minimo: "+ min);
+     console.log("Media: "+ media);
+
+
+
+
+     
+
 
         
         break;
