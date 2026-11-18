@@ -60,7 +60,11 @@ do{
             break;
 
             case "D":
-            let total = 0;
+            if (biblioteca.size === 0) {
+                window.alert("El catálogo está vacío.");
+            } else {
+                
+            }
 
             
         
